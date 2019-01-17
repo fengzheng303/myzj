@@ -1,0 +1,277 @@
+$top-width:1423px;
+$back-color:#f7f5f7;
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, hr, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{
+    margin: 0;
+    padding: 0;
+}
+a{
+  text-decoration: none;
+    outline: none;
+}
+li{
+    list-style: none;
+}
+
+
+//以上是头部
+#logo{
+     background-color: #fff;
+      padding-bottom: 10px;
+      padding-top: 20px;
+}
+#logo1{
+   
+    height: 75px;
+    position: relative;
+    
+    width: 1000px;
+    margin: 0 auto;
+   
+    text-align: left;
+    #logo2{
+            float: left;
+            margin-right: 10px;
+            a{
+                display: block;
+                width: 268px;
+                height: 80px;
+                background: none;
+                img{
+                    width: 150px;
+                    height: 55px;
+                }
+            }
+    }
+}
+//这是logo
+#main{
+    
+    padding-top: 5px;
+    #main1{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    #center{
+    display: block;
+    border: 1px solid #d3d3d3;
+    zoom: 1;
+    padding: 40px 0px 10px;
+    position: relative;
+    height: 500px;
+    background-color: #eaeaea;
+    #center1{
+    position: absolute;
+    top: 2px;
+    left: 42%;
+    margin-left: -253px;
+   
+    #denglu1{
+    background: #fff;
+    border-top: 3px solid #f90;
+    height: 38px;
+    }
+    ul li{
+    float: left;
+    width: 240px;
+    border: 1px solid #dedede;
+    margin-left: 10px;
+    border-bottom: none;
+    background: #fff;
+    height: 38px;
+    line-height: 35px;
+    text-align: center;
+    background: #f8f8f8;
+      }
+
+    }
+    }
+    }
+}
+//登录注册
+#zhuce1{
+    text-align: center;
+    line-height: 19px;
+}
+ #zhuce1 a{ 
+    font-size: 14px;
+    font-weight: bold;
+    color: #979797;
+     i{
+        background: url(http://static.boodoll.cn/omall/v15/images/register.png) no-repeat ;
+    background-position: -294px 1px;
+    width: 35px;
+    height: 27px;
+    vertical-align: -5px;
+   display: inline-block;   
+    }}
+#denglu1 a{
+    color: #ff5c00;
+    font-size: 14px;
+    font-weight: bold;
+    i{
+     background: url(http://static.boodoll.cn/omall/v15/images/register.png) no-repeat ;
+    background-position: -255px 1px;
+    width: 38px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: -5px;
+   
+}
+}
+#qunbu{
+    height: 500px;
+    width: 1000px;
+    background: #fff;
+    margin-right:0 ;
+}
+#user{
+    float: left;
+    width: 548px;
+    height: 450px;
+    margin-top: 48px;
+    margin-left: 0;
+    background-color: #fff;
+#user1 ul{
+    padding: 0;
+    margin: 0;
+    clear: both;
+    zoom: 1;
+   
+#username{
+    float: left;
+    line-height: 20px;
+    width: 380px;
+    height: 36px;
+    font-size: 14px;
+    margin-left: 63px;
+    input{
+        width: 246px;
+        height: 36px;
+    }
+}
+#psw{
+    float: left;
+    line-height: 20px;
+    width: 380px;
+    height: 36px;
+    font-size: 14px;
+  margin-top: 15px;
+     margin-left: 35px;
+    input{
+        width: 246px;
+        height: 36px;
+    }
+}
+}
+}
+#psw1{
+    float: left;
+    line-height: 20px;
+    width: 380px;
+    height: 36px;
+    font-size: 14px;
+    margin-top: 15px;
+     margin-left: 35px;
+    input{
+        width: 246px;
+        height: 36px;
+    }
+}
+#yanzheng{
+    float: left;
+    line-height: 20px;
+    width: 330px;
+    height: 36px;
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: 20px;
+    input{
+        height: 36px;
+    }
+    #txt2{
+        width: 100px;
+    }
+    #btn4{
+        width: 130px;
+        background-color: #fffaec;
+        color: orange;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+#miandenglu{
+    float: left;
+    display: block;
+    width: 275px;
+    height: 21px;
+    margin-top: 60px;
+    margin-left: 55px;
+}
+ #sub{
+width: 227px;
+height: 40px;
+background-color: orange;
+color: white;
+font-size: 16px;
+margin: 20px 0 0 60px;
+}
+#zhifubao{
+    width: 381px;
+    height: 51px;
+    margin-left: 90px;
+    a{
+        display: inline-block;
+    }
+}
+#weibo{ 
+    background: url(http://static.boodoll.cn/omall/v15/images/register.png) no-repeat;
+    background-position: -2px -301px;
+    width: 24px;
+    height: 24px;
+      float: left;
+}
+#zhifubao1{  
+    background: url(http://static.boodoll.cn/omall/v15/images/register.png) no-repeat;
+    background-position: -28px -301px;
+    width: 24px;
+    height: 24px;
+      float: left;
+      margin: 0 10px
+}
+#qq{
+    background: url(http://static.boodoll.cn/omall/v15/images/register.png) no-repeat;
+        background-position: -84px -301px;
+        width: 24px;
+    height: 24px;
+      float: left;
+}
+#erweima a{
+    float: right;
+    width: 45%;
+    text-align: center;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+
+#end,#end a{
+    color: #666666;
+      text-align: center;
+      font-size: 10px;
+      margin:86px 36px;
+}
+#end a:hover{
+    color: orange;}
+#end ul{
+    height: 24px;
+  margin-left: 530px;
+  margin-top: 22px;
+    }
+#end1 ul{
+ position: relative;
+ left: -210px;
+    }
+#end1 li{float: left;}
+#end p{height: 25px;line-height: 25px;display: block;margin-bottom: 0;}

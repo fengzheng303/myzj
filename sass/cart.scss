@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+li{
+    list-style: none;
+}
+#tou{
+     width: 1000px;
+    height: 50px;
+    margin: 0 auto;    
+    background-color: #C0C0C0;
+   span{
+        height: 50px;
+        width:160px;
+       text-align: center;
+       line-height: 50px;
+       display: block;
+       float: left;
+   }
+}
+#cartList{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #C0C0C0;
+    li{
+        float: left;
+        width: 1000px;
+    }
+}
+.pic{
+    width: 196px;
+    height: 100px;
+    float: left;
+    img{
+    width: 196px;
+    height: 100px;
+    }
+}
+.shangpin{
+    height: 20px;
+    display: block;
+    background: yellow;
+}
+.price{
+    height: 40px;width: 50px;
+   
+    margin-left: 376px;
+    line-height: 40px;
+    font-size: 20px;
+    display: block;
+}
+.minusBtn{
+    height: 24px;
+    width: 30px;
+    background: orange;
+    color: #fff;
+    display: block;
+    margin-left: 538px;
+    margin-top: -30px;
+}
+.plusBtn{
+    height: 24px;
+    width: 30px;
+    background: orange;
+    color: #fff;
+    display: block;
+    margin-left: 607px;
+    margin-top: -27px;
+}
+.count{
+    margin-left: 573px;
+    height: 24px;
+    width: 30px;
+     display: block;
+    margin-top: -22px;
+}
+.perTotle{
+    height: 30px ;
+    width: 80px;
+  
+    display: block;
+    margin-top: -27px;
+    margin-left: 750px;
+}
+.delBtn{
+    background: lightpink;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+     display: block;
+    margin-top: -30px;
+    margin-left: 950px;
+}
+#totalPrice{
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center; 
+    position: fixed;
+   right: 30px;
+   top: 350px;
+   border: 1px red solid ;
+}   

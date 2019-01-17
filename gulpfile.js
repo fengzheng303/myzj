@@ -1,5 +1,6 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
+
 var sourcemaps = require("gulp-sourcemaps");
 var connect = require("gulp-connect");
 var concat = require("gulp-concat");
@@ -21,7 +22,7 @@ gulp.task("copy-img",function(){
 	.pipe(gulp.dest("dist/img"));
 });
 gulp.task("copyJs",function(){
-	gulp.src("js/**")
+	gulp.src("js/*.js")
 	.pipe(gulp.dest("dist/js"))
 });
 gulp.task("watch",function(){

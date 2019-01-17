@@ -1,9 +1,255 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/comment.css" />
+		<link rel="stylesheet" type="text/css" href="css/xiangqing.css" />
+		<link rel="stylesheet" type="text/css" href="css/topcom.css" />
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+        		<script src="js/startMove.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/topcomm.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/xiangqing.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+
 	<body>
+		<div id="header">
+			<div id="m-header">
+				<div id="header1">
+					<div id="header2">
+						<ul id="myzj">
+							<li id="myzj1">
+								<a href="#">母婴之家</a>
+							</li>
+							<li id="myzj2">
+								<a href="#">我要开店</a>
+							</li>
+							<li id="myzj3">
+								<div id="shouji">
+									<i><img src="img/手机版.png"/></i>
+									<a href="#">手机版</a>
+								</div>
+							</li>
+						</ul>
+						<ul id="zhuce">
+							<li id="huanying">
+								<span>欢迎来到母婴之家！</span>
+								<a href="#" id="login">[登录]</a>
+								<a href="reg.html" id="reg">[免费注册]</a>
+							</li>
+							<li class="shu1"></li>
+							<li class="dingdan" id="xiala1">
+								<div class="dingdan1" id="xiala11">
+									<a href="#" class="dingdan2" id="xiala111">我的订单</a>
+									<b></b>
+								</div>
+								<div class="dingdan3" id="xiala1111">
+									<a href="#">我的家</a><br/>
+									<a href="#">我的提问</a><br/>
+									<a href="#">我的评论</a><br/>
+									<a href="#">我的收藏</a><br/>
+									<a href="#">我的幸运星</a>
+								</div>
+							</li>
+							<li class="shu1"></li>
+							<li class="dingdan" id="xiala2">
+								<div class="dingdan1" id="xiala22">
+									<a href="#" class="dingdan2" id="xiala222">客户服务</a>
+									<b></b>
+								</div>
+								<div class="dingdan3" id="xiala2222">
+									<a href="#">在线客服</a><br/>
+									<a href="#">帮助中心</a><br/>
+
+								</div>
+							</li>
+							<li class="shu1"></li>
+							<li class="dingdan">
+								<a href="#">商务合作</a>
+							</li>
+							<li class="shu1"></li>
+							<li class="dingdan" id="xiala3">
+								<div class="dingdan1" id="xiala33">
+									<a href="#" class="dingdan2" id="xiala333">网站导航</a>
+									<b></b>
+								</div>
+								<div class="dingdan3" id="xiala3333">
+									<a href="#">分类导航</a><br/>
+									<a href="#">品牌导航</a><br/>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 以上是头部 -->
+		<div id="logo">
+			<div id="logo1">
+				<div id="logo2">
+					<a href="index.html">
+						<img src="http://static.boodoll.cn/omall/v15/images/logo29new.png" />
+					</a>
+				</div>
+				<div id="sousuo">
+					<div id="sousuo1">
+						<input type="text" id="txt3" placeholder="搜索母婴之家 商品/品牌" />
+						<input type="button" id="btn5" value="搜索" />
+					</div>
+					<ul id="hot">
+						<li>热门搜索：</li>
+						<li id="aitamei">
+							<a href="#">爱他美</a>
+						</li>
+						<li>
+							<a href="#">美德乐</a>
+						</li>
+						<li>
+							<a href="#">口罩</a>
+						</li>
+						<li>
+							<a href="#">保温杯</a>
+						</li>
+						<li>
+							<a href="#">澳洲直邮</a>
+						</li>
+						<li>
+							<a href="#">睡袋</a>
+						</li>
+						<li>
+							<a href="#">暖奶器</a>
+						</li>
+						<li>
+							<a href="#">奶瓶</a>
+						</li>
+					</ul>
+				</div>
+				<div id="cart6">
+					<!--<div id="yincang">
+                		<img src="http://static.boodoll.cn/mall/v16/images/index/sprite215new.png"/>
+                		您的购物车是空的，去挑选喜欢的商品吧！
+                	</div>-->
+					<div id="xianshi">
+						<a href="cart.html"><i>购物车</i>
+							<b>0</b></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fenlei">
+			<ul id="yiji">
+				<li id="fenlei1">
+					<a href="#">全部商品分类</a>
+					<ul>
+						<li>
+							<a href="#">妈妈专区</a>
+							<div>
+								AAAAAAA
+							</div>
+						</li>
+						<li>
+							<a href="#">哺乳喂养</a>
+							<div>
+								AAAAAAA
+							</div>
+						</li>
+						<li>
+							<a href="#">奶粉辅食</a>
+							<div>
+								AAAAAAA
+							</div>
+						</li>
+						<li>
+							<a href="#">纸尿裤湿巾</a>
+							<div>
+								AAAAAAA
+							</div>
+						</li>
+						<li>
+							<a href="#">洗护用品</a>
+							<div>
+								AAAAAAA
+							</div>
+						</li>
+						<li>
+							<a href="#">宝宝服饰</a>
+							<div>
+								AAAAAAA
+							</div>
+						</li>
+						<li>
+							<a href="#">童车座椅</a>
+							<div>
+								AAAAAAA
+							</div>
+						</li>
+						<li>
+							<a href="#">玩具</a>
+							<div>
+								AAAAAAA
+							</div>
+						</li>
+						<li>
+							<a href="#">座椅寝具</a>
+							<div>
+								AAAAAAA
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">首页</a>
+				</li>
+				<li>
+					<a href="#">幸运星期一</a>
+				</li>
+				<li id="fenlei2">
+					<a href="#">直邮专区</a>
+					<!--<div>
+        				<a href="#">欧洲直邮</a>
+        			</div>-->
+				</li>
+				<li>
+					<a href="#">品牌专区</a>
+				</li>
+				<li>
+					<a href="#">会员俱乐部</a>
+				</li>
+
+			</ul>
+		</div>
+		<div id="detail">
+			<!--<div id="zoomArea"> 
+						<img src="${data.picurl}">
+						<p>${data.name}</p>
+						<p>${data.price}</p>
+						<input type="button" class="addBtn" value="加入购物车">
+					</div>-->
+		</div>
+		<!--导航-->
+		<!--<div id="fangda">-->
+		<!--<div id="cucao">
+				首页 > 哺育喂养 > 奶瓶 > 汤美天地“母乳自然”PESU印花防胀气超宽口径奶瓶5oz/150ml（蓝色）</div>
+-->
+		<!--	<div id="zoomArea">
+				<div id="midArea">
+					<img src="http://img.boodoll.cn/pdt/img/a2/9abb15f5373e42b4_380X380.jpg" />
+					<div id="zoom"></div>
+				</div>
+				<div id="bigArea">
+					<img src="http://img.boodoll.cn/pdt/img/a2/9abb15f5373e42b4_380X380.jpg" />
+				</div>
+				<div id="box">
+					<img src="http://img.boodoll.cn/pdt/img/a2/9abb15f5373e42b4_380X380.jpg" />
+					<img src="http://img.boodoll.cn/pdt/img/d7/447100215b3334a7_380X380.jpg" />
+					<img src="http://img.boodoll.cn/pdt/img/x3/4618ed08a59a8399_380X380.jpg" />
+					<img src="http://img.boodoll.cn/pdt/img/a2/9abb15f5373e42b4_380X380.jpg" />
+				</div>-->
+		<!--</div>
+		</div>-->
 	</body>
+
 </html>

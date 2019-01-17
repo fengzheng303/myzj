@@ -1,0 +1,175 @@
+$top-width:1423px;
+$back-color:#f7f5f7;
+
+#header{
+    width: $top-width;
+    height: 42px;
+    position: relative;
+    z-index: 1000;
+    font-family: '\5b8b\4f53';
+}
+#m-header{
+    background: $back-color;
+    height: 42px;
+    z-index: 130;
+    position: relative;
+}
+#header1{
+    height: 42px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#header2{
+    width: 1000px;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+}
+#myzj{
+    padding-top: 5px;
+    height: 37px;
+    float: left;
+    li{
+    float: left;
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    border-right: 1px solid #e7e7e7;
+    display: inline-block;
+    padding: 0 20px;
+    a{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei"
+    }
+    }
+    #myzj1{
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 2px;
+    background-color: #fff;
+    a{color: orange;}
+    }
+    }
+#myzj2 a:hover{color: orange;}
+#shouji{
+    padding: 0 10px;
+    z-index: 20;
+    i{
+    margin-right: 10px;
+    margin-top: 7px;
+    //position: absolute;
+    //left: 10px;
+    background-position: -320px -240px;
+    width: 12px;
+    height: 20px;
+    cursor: pointer;
+    top: 4px;
+    background-image: url(http://static.boodoll.cn/omall/v15/images/index/sprite27new.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    img{
+        display: none;
+        position: absolute;
+        height: 140px;
+        width: 280px;
+        left: 12px;
+        top: 0px;
+    }
+    }
+}
+#zhuce{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 42px;
+    line-height: 42px;
+    z-index: 110;
+    float: right;
+    display: inline;
+    margin-right: 0;
+    color: #7d7d7d;
+    font-size: 12px;
+    li{
+    float: left;
+    display: inline-block;
+    position: relative;
+    padding: 0 4px;
+    }
+    #huanying{
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 0 4px;
+    color: #7d7d7d;
+    height: 42px;
+    #login{
+    color:  #FF7800;
+    font-weight: normal;
+    }
+    #reg{
+    color: #FF5c00;
+    font-weight: normal;
+    }
+    }
+    .shu1{
+    width: 0;
+    vertical-align: top;
+    top: 9px;
+    line-height: 14px;
+    left: 0;
+    height: 14px;
+    font-size: 0;
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 5px 2px 0 2px;
+    padding: 0;
+    }
+}
+.dingdan{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    z-index: 120;
+    position: relative;
+    margin-top: 10px;
+}
+
+.dingdan2{color: #000;}
+.dingdan3{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    right: 281px;
+    border-top: none;
+    background-color: #fff;
+    position: absolute;
+    border: 1px solid #ff5c00;
+    text-align: left;
+    width: 68px;
+    top: 28px;
+    left: 0;
+    line-height: 21px;
+    z-index: 20;
+    display: none;
+    padding: 4px 0 2px;
+}
+.dingdan3 a{color: #000;}
+#xiala1{
+    
+}
+/*
+ 下拉菜单隐藏
+#xiala1111:hover{
+    display: block;
+}*/
+//以上是头部

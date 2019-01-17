@@ -3,7 +3,211 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reg.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topcom.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/reg.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/topcomm.js" type="text/javascript" charset="utf-8"></script>
 	</head>
-	<body>
+	<body style="background-color: #ececec">
+		<!--这是头部-->
+		<div id="header">
+			<div id="m-header">
+				<div id="header1">
+					<div id="header2">
+						<ul id="myzj"> 
+							<li id="myzj1"><a href="#">母婴之家</a></li>
+							<li id="myzj2"><a href="#">我要开店</a></li>
+							<li id="myzj3">
+								<div id="shouji">
+									<i><img src="img/手机版.png"/></i>
+									<a href="#">手机版</a>
+								</div>
+							</li>
+						</ul>
+					    <ul id="zhuce">
+					    	<li id="huanying">
+					    		<span>欢迎来到母婴之家！</span>
+					    		<a href="login.html" id="login">[登录]</a>
+					    		<a href="reg.html" id="reg">[免费注册]</a>
+					    	</li>
+					    	<li class="shu1"></li>
+					    	<li class="dingdan" id="xiala1">
+					    		<div class="dingdan1" id="xiala11">	
+					    		<a href="#" class="dingdan2" id="xiala111">我的订单</a>
+					    		<b></b>
+					    		</div>
+					    		<div class="dingdan3" id="xiala1111">
+					    			<a href="#">我的家</a><br/>
+					    			<a href="#">我的提问</a><br/>
+					    			<a href="#">我的评论</a><br/>
+					    			<a href="#">我的收藏</a><br/>
+					    			<a href="#">我的幸运星</a>
+					    		</div>
+					    	</li>
+					    	<li class="shu1"></li>
+					    	<li class="dingdan" id="xiala2">
+					    		<div class="dingdan1" id="xiala22">	
+					    		<a href="#" class="dingdan2" id="xiala222">客户服务</a>
+					    		<b></b>
+					    		</div>
+					    		<div class="dingdan3" id="xiala2222">
+					    			<a href="#">在线客服</a><br/>
+					    			<a href="#">帮助中心</a><br/>
+					    			
+					    		</div>
+					    	</li>
+					    	<li class="shu1"></li>
+					    	<li class="dingdan"><a href="#">商务合作</a></li>
+					    	<li class="shu1"></li>
+					    	<li class="dingdan" id="xiala3">
+					    		<div class="dingdan1" id="xiala33">	
+					    		<a href="#" class="dingdan2" id="xiala333">网站导航</a>
+					    		<b></b>
+					    		</div>
+					    		<div class="dingdan3" id="xiala3333">
+					    			<a href="#">分类导航</a><br/>
+					    			<a href="#">品牌导航</a><br/>
+					    		</div>
+					    	</li>
+					    	
+					    </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	    <!--这是母婴之家logo-->
+	    <div id="logo">
+	    	<div id="logo1">
+	    		<div id="logo2">
+	    			<a href="index.html">
+	    				<img src="http://static.boodoll.cn/omall/v15/images/logo29new.png"/>
+	    			</a>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--这是登录注册-->
+	    <div id="main">
+	    	<div id="main1">
+	    		<div id="center">
+	    			<div id="center1">
+	    				<ul> 
+	    					<li id="denglu1"><a href="reg.html"><i></i>注册</a></li>
+	    					<li id="zhuce1"><a href="login.html"><i></i>登录</a></li>
+	    				</ul>
+	    			</div>
+	    			<div id="qunbu">
+	    				
+	    			
+	    			<div id="user">
+	    				<form id="user1">
+	    					<input type="hidden" value="-1"/>
+	    					<ul>
+	    						<li id="username">
+	    							手机号:
+	    							<input type="text" id="txt1" placeholder="请填入手机号" name="username"/>	
+	    						</li>
+	    						<li id="psw">
+	    							密码:
+	    							<input type="password" id="psw11" placeholder="请填入密码" name="password"/>	
+	    						</li>
+	    						<li id="psw1">
+	    							邮箱:
+	    							<input type="text" id="psw22" placeholder="请填入邮箱" />	
+	    						</li>
+	    						<li>
+	    							
+	    						</li>
+	    						<li id="yanzheng">
+	    							
+	    								性别：
+	    								<input type="text"  id="txt2"/>
+	    								<!--<input type="button" id="btn4" value="获取手机验证码" />-->
+	    							
+	    						</li>
+	    						<li>
+	    						<div id="miandenglu">
+	    							<input type="checkbox" name="remember" id="remember" checked="checked" />阅读并同意
+	    							<a href="#" id="wangji">"母婴之家网站用户协议"</a>
+	    						</div>
+	    						</li>
+	    						<li id="liji">
+	    							<div id="liji1">
+	    								<input type="button" id="sub" value="提交注册	" />
+	    							</div>
+	    						</li>
+	    					</ul>
+	    				</form>
+		    			
+                       <div id="zhifubao">
+	                    	<div id="hezuozhanghao">   	
+	                        使用合作网站账号登录母婴之家：
+	                    	</div>
+	                    	<ul>
+	                    		<li><a href="#" id="weibo"></a></li>
+	                    		<li><a href="#" id="zhifubao1"></a></li>
+	                    		<li><a href="#" id="qq"></a></li>
+	                    	</ul>
+	                    </div>
+	    			    <div id="erweima">
+	    			    	<a href="#">
+	    			    		<img src=" http://img.muyingzhijia.com/product/web/toutu/150211-340x300-2.jpg" >
+	    			    	</a>
+	    			    </div>
+	    			</div>
+                   </div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div id="end">
+            	<div id="end1">
+            		<ul>
+            			<li><a href="#">首页</a>|</li>
+            			<li><a href="#">公司简介</a>|</li>
+            			<li><a href="#">人才招聘</a>|</li>
+            			<li><a href="#">合作联系</a>|</li>
+            			<li><a href="#">企业理念</a>|</li>
+            			<li><a href="#">隐私条款</a></li>
+            		</ul>	
+            	</div>
+            	<p>由本网站发布的商品或服务的商业宣传活动均属"广告"</p>
+            	<p>Copyright©2003 - 2017 上海母婴之家网络科技股份有限公司 muyingzhijia.com All Rights Reserved 客服热线：021-51760000 4008201000</p>
+            	<p>出版物经营许可证新出发(沪)零字第E6980号</p>
+            	<div id="end2">
+            		<a href="#"><img src="img/上海工商.gif"/></a>
+            		<a href="#"><img src="img/品牌官网.jpg"/></a>
+            	</div>
+            	<div id="end3">
+            		<a href="#"><img src="img/公网.gif"/></a>
+            	</div>
+            	
+            </div>
+			</div>
+	</div>   
+	<script type="text/javascript">
+		
+		var oTxt = document.getElementById("txt1");
+		var oemail=document.getElementById("psw22");
+		//   /^1(3|5|7|8)\d{9}$/
+		var reg = /^1(3|5|7|8)\d{9}$/;
+		oTxt.onchange = function(){
+			if(reg.test(oTxt.value)){
+				console.log("格式正确");
+			}else{
+				alert("格式错误");
+			}
+		}
+		//电子邮件( xxxxx @ xxxx(.xxxx)+)
+		var reg1 = new RegExp("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$");
+		     oemail.onchange = function(){
+			if(reg1.test(oemail.value)){
+				console.log("格式正确");
+			}else{
+				alert("格式错误");
+			}
+		}
+	</script>
 	</body>
 </html>
